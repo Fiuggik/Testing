@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: white; /* Установите фон тела в белый */
+  }
+h1 {
+  font-family: 'Arial', sans-serif;
+}
+.custom-shadow {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.active {
+  background-color: #ffffff34; /* Измените на желаемый цвет */
+  border-radius: 30%;
+}

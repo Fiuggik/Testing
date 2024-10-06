@@ -1,0 +1,36 @@
+{
+  "name": "19-get-user-data",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@telegram-apps/sdk": "^2.4.0",
+    "@twa-dev/sdk": "^7.10.1",
+    "@twa-dev/types": "^7.10.0",
+    "ls": "^0.2.1",
+    "mongodb": "^6.9.0",
+    "next": "14.2.5",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-native-haptic-feedback": "^2.3.3",
+    "react-router-dom": "^6.26.2",
+    "use-route": "^0.0.1"
+  },
+  "devDependencies": {
+    "@prisma/client": "^5.20.0",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.5",
+    "postcss": "^8",
+    "prisma": "^5.20.0",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}
