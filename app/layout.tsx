@@ -72,31 +72,31 @@ export default function RootLayout({
         <div className="fixed bottom-2 left-0 w-full p-3.5 flex justify-center gap-20 z-10 gradient-bg"> 
           <div className="bg-opacity-60 bg-black rounded-full p-2 flex gap-6" style={{ boxShadow: '0 5px 30px rgba(0, 0, 0, 0.10)' }}>
             <button 
-              className={`relative w-13 h-11 rounded-md focus:outline-none ${activeScreen === '/' ? 'active' : ''}`} // Добавляем класс "active"
+              className={`relative w-10 h-13 rounded-md focus:outline-none ${activeScreen === '/' ? 'active' : ''}`} // Добавляем класс "active"
               onClick={handleRocketClick}
             > 
               <img src={rocketImage} alt="Button 1" className="w-full h-full object-cover rounded-md" />
             </button> 
             <button 
-              className={`relative w-13 h-11 rounded-md focus:outline-none ${activeScreen === '/coin' ? 'active' : ''}`} // Добавляем класс "active"
+              className={`relative w-10 h-13 rounded-md focus:outline-none ${activeScreen === '/coin' ? 'active' : ''}`} // Добавляем класс "active"
               onClick={handleCoinClick}
             > 
               <img src={coinImage} alt="Button 2" className="w-full h-full object-cover rounded-md" />
             </button>
             <button 
-              className={`relative w-13 h-11 rounded-md focus:outline-none ${activeScreen === '/shop' ? 'active' : ''}`} // Добавляем класс "active"
+              className={`relative w-10 h-13 rounded-md focus:outline-none ${activeScreen === '/shop' ? 'active' : ''}`} // Добавляем класс "active"
               onClick={handleShopClick}
             > 
               <img src={shopImage} alt="Button 3" className="w-full h-full object-cover rounded-md" />
             </button>
             <button 
-              className={`relative w-13 h-11 rounded-md focus:outline-none ${activeScreen === '/friends' ? 'active' : ''}`} // Добавляем класс "active"
+              className={`relative w-10 h-13 rounded-md focus:outline-none ${activeScreen === '/friends' ? 'active' : ''}`} // Добавляем класс "active"
               onClick={handleFriendsClick}
             > 
               <img src={friendsImage} alt="Button 4" className="w-full h-full object-cover rounded-md" />
             </button>
             <button 
-              className={`relative w-13 h-11 rounded-md focus:outline-none ${activeScreen === '/profile' ? 'active' : ''}`} // Добавляем класс "active"
+              className={`relative w-10 h-13 rounded-md focus:outline-none ${activeScreen === '/profile' ? 'active' : ''}`} // Добавляем класс "active"
               onClick={handleProfileClick}
             > 
               <img src={profileImage} alt="Button 5" className="w-full h-full object-cover rounded-md" />
